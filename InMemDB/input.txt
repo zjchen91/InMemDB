@@ -1,0 +1,12 @@
+BEGIN
+set a 10
+get a
+begin
+set a 20
+get a
+rollback
+get a
+rollback
+get a
+end
+
